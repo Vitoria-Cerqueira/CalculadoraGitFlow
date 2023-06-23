@@ -46,15 +46,15 @@ public class Calculator {
         n2 = scan.nextInt();
         return n1 - n2;
     }
-    public int dividirNumeros(){
+    public double dividirNumeros(){
 
-        int n1, n2;
-
-        System.out.println("Informe um número: ");
-        n1 = scan.nextInt();
+       double n1, n2;
 
         System.out.println("Informe um número: ");
-        n2 = scan.nextInt();
+        n1 = scan.nextDouble();
+
+        System.out.println("Informe um número: ");
+        n2 = scan.nextDouble();
 
         return n1 / n2;
 
