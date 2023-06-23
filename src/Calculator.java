@@ -23,7 +23,6 @@ public class Calculator {
                 System.exit(0);
             default:
                 System.out.println("INVALID");
-
         }
     }
     public int somarNumeros() {
