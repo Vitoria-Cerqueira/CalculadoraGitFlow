@@ -47,7 +47,6 @@ public class Calculator {
         return n1 - n2;
     }
     public double dividirNumeros(){
-
        double n1, n2;
 
         System.out.println("Informe um número: ");
